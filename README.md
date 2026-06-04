@@ -1,11 +1,11 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BABC,100:00599C&height=180&section=header&text=42%20Piscine&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=36" width="100%"/>
+
 <div align="center">
 
-# 42 Piscine
-
-**42 Kocaeli Havuz (Piscine) sürecinde tamamlanan C programlama egzersizleri.**
-
-[![Language](https://img.shields.io/badge/language-C-00599C?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Language](https://img.shields.io/badge/language-C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![School](https://img.shields.io/badge/42-Kocaeli-00BABC?style=for-the-badge)](https://42kocaeli.com.tr/)
+[![Norm](https://img.shields.io/badge/norminette-passing-brightgreen?style=for-the-badge)](https://github.com/42School/norminette)
+![Visitor](https://visitor-badge.laobi.icu/badge?page_id=Sayicon.42-Piscine)
 
 </div>
 
@@ -22,21 +22,22 @@ Bu repoda Piscine sürecinde tamamlanan tüm modüller yer almaktadır.
 ## Modüller
 
 | Modül | Konu | Egzersiz Sayısı |
-|-------|------|:---:|
-| [C02](#c02) | String işleme | 12 |
-| [C03](#c03) | String karşılaştırma ve birleştirme | — |
-| [C04](#c04) | Sayı-string dönüşümleri | — |
-| [C05](#c05) | Özyineleme (Recursion) | — |
-| [C06](#c06) | argc / argv | — |
-| [C07](#c07) | Dinamik bellek tahsisi | 4 |
-| [C08](#c08) | Header dosyaları ve makrolar | — |
+|:-----:|------|:---:|
+| [C02](#c02) | String işleme ve karakter fonksiyonları | **12** |
+| [C03](#c03) | String karşılaştırma ve birleştirme | **6** |
+| [C04](#c04) | Sayı-string dönüşümleri | **6** |
+| [C05](#c05) | Özyineleme (Recursion) | **8** |
+| [C06](#c06) | argc / argv | **4** |
+| [C07](#c07) | Dinamik bellek tahsisi | **4** |
+| [C08](#c08) | Header dosyaları ve makrolar | **6** |
+| **Toplam** | | **46** |
 
 ---
 
 ## Modül Detayları
 
 ### C02
-**String Manipülasyonu**
+**String Manipülasyonu** — 12 egzersiz
 
 String kopyalama, dönüştürme ve karakter sınıflandırma egzersizleri:
 - Dizileri büyük/küçük harfe çevirme
@@ -45,14 +46,14 @@ String kopyalama, dönüştürme ve karakter sınıflandırma egzersizleri:
 - Whitespace kaldırma ve kelime tabanlı dönüşümler
 
 ### C03
-**String Karşılaştırma ve Birleştirme**
+**String Karşılaştırma ve Birleştirme** — 6 egzersiz
 
 - `strcmp` / `strncmp` uygulamaları
 - `strcat` / `strncat` güvenli birleştirme
 - `strstr` (alt string arama)
 
 ### C04
-**Sayı-String Dönüşümleri**
+**Sayı-String Dönüşümleri** — 6 egzersiz
 
 - `strlen` uygulaması
 - `atoi` — string'den tamsayıya
@@ -60,7 +61,7 @@ String kopyalama, dönüştürme ve karakter sınıflandırma egzersizleri:
 - Farklı sayı tabanlarında (hex, octal) çıktı
 
 ### C05
-**Özyineleme (Recursion)**
+**Özyineleme (Recursion)** — 8 egzersiz
 
 - Faktöriyel hesaplama
 - Fibonacci sayı dizisi
@@ -68,14 +69,14 @@ String kopyalama, dönüştürme ve karakter sınıflandırma egzersizleri:
 - Özyinelemeli toplama
 
 ### C06
-**Komut Satırı Argümanları**
+**Komut Satırı Argümanları** — 4 egzersiz
 
 - `argc` ve `argv` kullanımı
 - Argümanları listeleme ve yazdırma
 - Programın adını ve parametrelerini işleme
 
 ### C07
-**Dinamik Bellek (malloc)**
+**Dinamik Bellek (malloc)** — 4 egzersiz
 
 - `malloc` ile string kopyalama
 - `ft_range` — verilen aralıkta int dizisi üretme
@@ -83,7 +84,7 @@ String kopyalama, dönüştürme ve karakter sınıflandırma egzersizleri:
 - `ft_strjoin` — birden fazla string'i birleştirme
 
 ### C08
-**Header Dosyaları**
+**Header Dosyaları** — 6 egzersiz
 
 - Kendi `.h` başlık dosyasını yazma
 - `#ifndef` / `#define` / `#endif` include guard yapısı
@@ -95,24 +96,13 @@ String kopyalama, dönüştürme ve karakter sınıflandırma egzersizleri:
 
 ```
 42-Piscine/
-├── C02/
-│   ├── ex00/    # ft_putstr
-│   ├── ex01/    # ft_putstr (revised)
-│   ├── ex02/    # ft_putnbr
-│   ├── ...
-│   └── ex11/
-├── C03/
-│   └── ex00/ – ex05/
-├── C04/
-│   └── ex00/ – ex04/
-├── C05/
-│   └── ex00/ – ex08/
-├── C06/
-│   └── ex00/ – ex03/
-├── C07/
-│   └── ex00/ – ex03/
-└── C08/
-    └── ex00/ – ex03/
+├── C02/   (ex00–ex11)  12 egzersiz
+├── C03/   (ex00–ex05)   6 egzersiz
+├── C04/   (ex00–ex05)   6 egzersiz
+├── C05/   (ex00–ex07)   8 egzersiz
+├── C06/   (ex00–ex03)   4 egzersiz
+├── C07/   (ex00–ex03)   4 egzersiz
+└── C08/   (ex00–ex05)   6 egzersiz
 ```
 
 ---
@@ -134,7 +124,7 @@ norminette C02/ex05/ft_str_is_alpha.c
 
 ## 42 Hakkında
 
-[42 Network](https://42.fr/en/homepage/), dünya genelinde 50'den fazla kampüsü olan eğitim ücreti almayan, sınıf ve öğretmen olmayan bir yazılım okulu ağıdır. 42 Kocaeli, Türkiye'deki kampüslerinden biridir.
+[42 Network](https://42.fr/en/homepage/), dünya genelinde 50'den fazla kampüsü olan, eğitim ücreti almayan, sınıf ve öğretmen olmayan bir yazılım okulu ağıdır. 42 Kocaeli, Türkiye'deki kampüslerinden biridir.
 
 Piscine sürecini geçen adaylar ana müfredata (`common core`) kabul edilir ve libft, ft_printf, push_swap gibi projelere geçiş yapar.
 
@@ -142,8 +132,9 @@ Piscine sürecini geçen adaylar ana müfredata (`common core`) kabul edilir ve 
 
 <div align="center">
 
-*42 Kocaeli — Piscine sürecindeki çalışmalar*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Sayicon-181717?style=flat-square&logo=github)](https://github.com/Sayicon)
+[![GitHub](https://img.shields.io/badge/GitHub-Sayicon-181717?style=for-the-badge&logo=github)](https://github.com/Sayicon)
+[![42 Profile](https://img.shields.io/badge/42-mcekici-00BABC?style=for-the-badge)](https://profile.intra.42.fr/)
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BABC,100:00599C&height=100&section=footer" width="100%"/>
